@@ -6,6 +6,8 @@
 
 Author on Bilibili: [百香里_](https://space.bilibili.com/147521399)
 
+Made in collaboration with ChatGPT / Codex (OpenAI)
+
 Create your own ChatGPT / Codex pet with this skill, or download a ready-made pet pack and follow its import instructions.
 Preview the characters below, then choose a download.
 

@@ -6,6 +6,8 @@
 
 作者 B 站：[百香里_](https://space.bilibili.com/147521399)
 
+协作制作：ChatGPT / Codex（OpenAI）
+
 用这套 Skill 制作自己的 ChatGPT / Codex 宠物，也可以下载现成宠物素材，按说明导入。
 先看下面的效果，再选你需要的下载。
 
