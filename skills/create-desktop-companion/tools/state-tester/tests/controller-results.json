@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "type": "Node VM controller tests with minimal DOM/canvas mocks; not browser rendering verification",
+  "checks": [
+    "v2 full sequence 73 cells and finite completion",
+    "all exact gaze coordinates",
+    "9 action frame counts",
+    "deterministic paused stepping",
+    "loop seam final and first cells",
+    "interruption sequence finite",
+    "nonloop stops",
+    "fps invalid inputs bounded, tick cannot negative-loop",
+    "v1 finite 57-cell coverage and hidden gaze",
+    "manual reviews retained and report not aesthetic pass",
+    "language toggles without changing frame",
+    "cancel load preserves asset"
+  ]
+}

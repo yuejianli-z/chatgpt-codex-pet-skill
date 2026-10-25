@@ -1,0 +1,53 @@
+name: Diagnostics
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.12']
+    defaults:
+      run:
+        working-directory: skills/create-desktop-companion
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Keep the character gallery and historical exports out of diagnostic jobs.
+          # checkout@v4 applies blob:none automatically for sparse checkout.
+          sparse-checkout: |
+            /skills/create-desktop-companion/
+          sparse-checkout-cone-mode: false
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/preflight.py
+      - run: python scripts/make_test_fixture.py /tmp/companion-ci-fixture
+      - run: python scripts/check_manifest.py examples/geometry-coverage.json
+      - run: python scripts/check_learning_ledger.py examples/learning-ledger.json
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node tools/state-tester/tests/controller-test.cjs
+      - run: node tools/state-tester/tests/independent-review.cjs
+      - run: python tools/state-tester/build.py
+      - run: python scripts/check_feature_applicability.py templates/feature-applicability.example.json
+      - run: python tools/line-art-rig/build_specimen.py
+      - run: python tools/line-art-rig/test_specimen.py
+      - run: python scripts/check_learning_ledger.py examples/learning-ledger.zh-CN.json
+      - run: python scripts/check_acceptance_scope.py templates/acceptance-scope.example.json
+      - run: python scripts/check_package.py
+      - name: Isolated copy-install smoke check
+        run: |
+          mkdir -p "$RUNNER_TEMP/companion-install/.agents/skills"
+          cp -R . "$RUNNER_TEMP/companion-install/.agents/skills/create-desktop-companion"
+          cd "$RUNNER_TEMP/companion-install/.agents/skills/create-desktop-companion"
+          python scripts/check_package.py
+          python scripts/preflight.py
+          python -m unittest discover -s tests

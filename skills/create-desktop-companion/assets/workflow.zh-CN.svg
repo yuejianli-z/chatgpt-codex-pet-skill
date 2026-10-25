@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="2380" viewBox="0 0 1700 2380" role="img" aria-labelledby="title desc"><title id="title">桌面伙伴 SKILL 完整工作流</title><desc id="desc">用户与助手双泳道。先核实平台契约，再完成身份及视觉基准，然后设计和制作状态动作；最后按实际验证范围交付。补参考、确认与局部回退均有条件，不是六轮审批。</desc><defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#197C79"/></marker><marker id="warm" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#C9693C"/></marker></defs>
+<rect x="0" y="0" width="1700" height="2380" rx="0" fill="#F6F3EA" stroke="none" stroke-width="2"/>
+<text x="64" y="66" fill="#197C79" font-family="Noto Sans CJK SC, sans-serif" font-size="19" font-weight="700">CREATE DESKTOP COMPANION / SKILL WORKFLOW</text>
+<text x="64" y="126" fill="#142C3D" font-family="Noto Sans CJK SC, sans-serif" font-size="43" font-weight="700">把现有输入，做成同一个会动的伙伴</text>
+<text x="64" y="173" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="25" font-weight="400">前置 00：核实平台契约、能力与未知项；下图继续身份和动作制作。</text>
+<rect x="62" y="205" width="1400" height="58" rx="12" fill="#142C3D" stroke="none" stroke-width="2"/>
+<text x="89" y="243" fill="#FFFFFF" font-family="Noto Sans CJK SC, sans-serif" font-size="24" font-weight="700">用户 · 最少必要参与</text>
+<text x="568" y="243" fill="#FFFFFF" font-family="Noto Sans CJK SC, sans-serif" font-size="24" font-weight="700">助手 · 主动完成工作</text>
+<rect x="62" y="278" width="430" height="1746" rx="16" fill="#EEECE3" stroke="none" stroke-width="2"/>
+<rect x="516" y="278" width="946" height="1746" rx="16" fill="#EDF1EA" stroke="none" stroke-width="2"/>
+<rect x="62" y="278" width="1400" height="49" rx="12" fill="#E4F0E9" stroke="none" stroke-width="2"/>
+<text x="83" y="312" fill="#197C79" font-family="Noto Sans CJK SC, sans-serif" font-size="24" font-weight="700">阶段一  /  身份、形象与必要视角</text>
+<rect x="61" y="347" width="45" height="38" rx="9" fill="#142C3D" stroke="none" stroke-width="2"/>
+<text x="73" y="374" fill="#FFFFFF" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700">01</text>
+<text x="123" y="375" fill="#142C3D" font-family="Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700">接收输入</text>
+<rect x="88" y="407" width="378" height="116" rx="16" fill="#FAEADD" stroke="#C9693C" stroke-width="2"/>
+<text x="112" y="446" fill="#142C3D" font-family="Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700">一句话或现有素材</text>
+<text x="112" y="483" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400">文字 / 名字 / 单图 / 多图 / 视频</text>
+<rect x="552" y="407" width="878" height="116" rx="16" fill="#FFFFFF" stroke="#CDD6D0" stroke-width="2"/>
+<text x="576" y="446" fill="#142C3D" font-family="Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700">判断目标与身份类型</text>
+<text x="576" y="483" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400">真实个体宠物 · 既有角色（核对版本）· 原创设定</text>
+<path d="M466 465 H546" fill="none" stroke="#197C79" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#arrow)"/>
+<path d="M992 523 V587" fill="none" stroke="#197C79" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#arrow)"/>
+<rect x="61" y="547" width="45" height="38" rx="9" fill="#142C3D" stroke="none" stroke-width="2"/>
+<text x="73" y="574" fill="#FFFFFF" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700">02</text>
+<text x="123" y="575" fill="#142C3D" font-family="Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700">提取证据，按需主动补参考</text>
+<rect x="552" y="587" width="878" height="93" rx="16" fill="#FFFFFF" stroke="#CDD6D0" stroke-width="2"/>
+<text x="576" y="626" fill="#142C3D" font-family="Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700">证据卡：外形不变量、核心气质与有据标志动作</text>
+<text x="576" y="663" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400">查可靠来源；私宠整理多素材 + 主人一句个体特点 / 典型动作</text>
+<path d="M992 680 V710" fill="none" stroke="#197C79" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#arrow)"/>
+<rect x="552" y="710" width="878" height="138" rx="16" fill="#FFFFFF" stroke="#CDD6D0" stroke-width="2"/>
+<text x="576" y="749" fill="#142C3D" font-family="Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700">公开角色：至少 3 张有信息增量的同版本参考</text>
+<text x="576" y="783" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400">尽量覆盖正面、侧面及其他角度；筛除不兼容变体</text>
+<text x="576" y="809" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400">产出带出处的对照页；不为凑数混入变体，找不足就明确缺口</text>
+<text x="576" y="835" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400">有能力才反向搜图，否则文字检索；补图不替换原输入</text>
+<rect x="88" y="698" width="378" height="150" rx="16" fill="#FAEADD" stroke="#C9693C" stroke-width="2"/>
+<text x="112" y="737" fill="#142C3D" font-family="Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700">只做必要的判断 / 授权</text>
+<text x="112" y="773" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="400">歧义或要求选图时确认</text>
+<text x="112" y="801" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="400">私宠补一句特点 / 典型动作</text>
+<text x="112" y="829" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="400">私图传第三方前先获授权</text>
+<path d="M552 748 H472" fill="none" stroke="#C9693C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#warm)" stroke-dasharray="8 7"/>
+<path d="M466 807 H546" fill="none" stroke="#C9693C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#warm)" stroke-dasharray="8 7"/>
+<path d="M992 848 V931" fill="none" stroke="#197C79" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#arrow)"/>
+<rect x="61" y="880" width="45" height="38" rx="9" fill="#142C3D" stroke="none" stroke-width="2"/>
+<text x="73" y="907" fill="#FFFFFF" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700">03</text>
+<text x="123" y="908" fill="#142C3D" font-family="Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700">小样校准 → 锁定形象基准</text>
+<rect x="552" y="931" width="878" height="122" rx="16" fill="#FFFFFF" stroke="#CDD6D0" stroke-width="2"/>
+<text x="576" y="970" fill="#142C3D" font-family="Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700">可比小样：既像目标，也保留核心感觉</text>
+<text x="576" y="1007" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400">检查外形与核心气质，再比较比例、材质和风格</text>
+<text x="576" y="1039" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400">按反馈局部修复；认可后锁基准，保留已通过项</text>
+<rect x="88" y="931" width="378" height="122" rx="16" fill="#FAEADD" stroke="#C9693C" stroke-width="2"/>
+<text x="112" y="970" fill="#142C3D" font-family="Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700">认可外观，或给具体反馈</text>
+<text x="112" y="1007" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400">“像它 / 喜欢这版 / 这里要改”</text>
+<text x="112" y="1039" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400">已有有效确认或代选委托不重问</text>
+<path d="M552 966 H472" fill="none" stroke="#C9693C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#warm)"/>
+<path d="M466 1024 H546" fill="none" stroke="#C9693C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#warm)"/>
+<path d="M992 1053 V1085" fill="none" stroke="#197C79" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#arrow)"/>
+<rect x="552" y="1085" width="878" height="93" rx="16" fill="#FFFFFF" stroke="#CDD6D0" stroke-width="2"/>
+<text x="576" y="1124" fill="#142C3D" font-family="Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700">锁定同一基准 + 当前必需视角</text>
+<text x="576" y="1161" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400">交接外形、气质、标志动作、允许变化与未知；不强制 360°</text>
+<rect x="62" y="1203" width="1400" height="49" rx="12" fill="#E4F0E9" stroke="none" stroke-width="2"/>
+<text x="83" y="1237" fill="#197C79" font-family="Noto Sans CJK SC, sans-serif" font-size="24" font-weight="700">阶段二  /  符合角色自身结构的状态动作</text>
+<path d="M992 1178 V1200" fill="none" stroke="#197C79" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#arrow)"/>
+<path d="M992 1255 V1309" fill="none" stroke="#197C79" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#arrow)"/>
+<text x="1020" y="1289" fill="#197C79" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="700">需要动作时</text>
+<rect x="61" y="1268" width="45" height="38" rx="9" fill="#142C3D" stroke="none" stroke-width="2"/>
+<text x="73" y="1295" fill="#FFFFFF" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700">04</text>
+<text x="123" y="1296" fill="#142C3D" font-family="Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700">查证宿主，设计代表动作</text>
+<rect x="552" y="1309" width="878" height="175" rx="16" fill="#FFFFFF" stroke="#CDD6D0" stroke-width="2"/>
+<text x="576" y="1348" fill="#142C3D" font-family="Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700">真实状态 → 自身结构与标志动作 → 代表预览</text>
+<text x="576" y="1382" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400">助手核对真实宿主状态、播放和切换能力</text>
+<text x="576" y="1409" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400">标志动作放在合适触发；高频状态保持低干扰</text>
+<text x="576" y="1436" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400">样本检查身份、核心感觉与切换；通过后再扩展</text>
+<text x="576" y="1463" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400">失败局部修复；结构缺口回补阶段一</text>
+<rect x="88" y="1327" width="378" height="122" rx="16" fill="#FAEADD" stroke="#C9693C" stroke-width="2"/>
+<text x="112" y="1366" fill="#142C3D" font-family="Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700">可选：表达动作偏好</text>
+<text x="112" y="1403" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400">例如更安静、幅度更小</text>
+<text x="112" y="1435" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400">不要求逐个状态批准</text>
+<path d="M552 1361 H472" fill="none" stroke="#C9693C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#warm)" stroke-dasharray="8 7"/>
+<path d="M466 1420 H546" fill="none" stroke="#C9693C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#warm)" stroke-dasharray="8 7"/>
+<path d="M992 1484 V1550" fill="none" stroke="#197C79" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#arrow)"/>
+<text x="1020" y="1524" fill="#197C79" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="700">代表样本通过 → 才扩展</text>
+<rect x="61" y="1506" width="45" height="38" rx="9" fill="#142C3D" stroke="none" stroke-width="2"/>
+<text x="73" y="1533" fill="#FFFFFF" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700">05</text>
+<text x="123" y="1534" fill="#142C3D" font-family="Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700">批量制作与分层质检</text>
+<rect x="552" y="1550" width="878" height="190" rx="16" fill="#FFFFFF" stroke="#CDD6D0" stroke-width="2"/>
+<text x="576" y="1589" fill="#142C3D" font-family="Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700">沿同一基准扩展动作，检查真实播放效果</text>
+<text x="576" y="1626" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400">身份 / 核心气质 / 体积 / 风格 / 格式与透明边界</text>
+<text x="576" y="1658" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400">循环接缝 + 中途状态切换 + 实际时长与显示尺寸</text>
+<text x="576" y="1690" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400">可用且获授权时做宿主实测；离线预览不能代替</text>
+<text x="576" y="1722" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400">失败只回退相关部分，再回归受影响状态</text>
+<path d="M992 1740 V1827" fill="none" stroke="#197C79" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#arrow)"/>
+<rect x="61" y="1783" width="45" height="38" rx="9" fill="#142C3D" stroke="none" stroke-width="2"/>
+<text x="73" y="1810" fill="#FFFFFF" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700">06</text>
+<text x="123" y="1811" fill="#142C3D" font-family="Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700">按已验证范围交付与应用</text>
+<rect x="552" y="1827" width="878" height="157" rx="16" fill="#FFFFFF" stroke="#CDD6D0" stroke-width="2"/>
+<text x="576" y="1866" fill="#142C3D" font-family="Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700">概念 / 角色参考 / 动作预览 / 可导入包</text>
+<text x="576" y="1903" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400">交付实际完成的层级，说明已验证项与剩余限制</text>
+<text x="576" y="1935" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400">应用：仅在能力可用且授权覆盖时上传、替换或启用</text>
+<text x="576" y="1967" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400">执行后核验运行结果；未运行就明确未运行</text>
+<rect x="88" y="1845" width="378" height="122" rx="16" fill="#FAEADD" stroke="#C9693C" stroke-width="2"/>
+<text x="112" y="1884" fill="#142C3D" font-family="Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700">需要应用时授权具体动作</text>
+<text x="112" y="1921" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400">确认目标与应用范围</text>
+<text x="112" y="1953" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400">已有明确授权不重复索取</text>
+<path d="M552 1879 H472" fill="none" stroke="#C9693C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#warm)" stroke-dasharray="8 7"/>
+<path d="M466 1938 H546" fill="none" stroke="#C9693C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#warm)" stroke-dasharray="8 7"/>
+<path d="M1430 1594 H1500 V1389 H1436" fill="none" stroke="#C9693C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#warm)" stroke-dasharray="8 7"/>
+<text x="1515" y="1470" fill="#C9693C" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="700">动作</text>
+<text x="1515" y="1499" fill="#C9693C" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="400">局部修复</text>
+<path d="M1430 1668 H1620 V1130 H1436" fill="none" stroke="#C9693C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#warm)" stroke-dasharray="8 7"/>
+<text x="1515" y="1083" fill="#C9693C" font-family="Noto Sans CJK SC, sans-serif" font-size="19" font-weight="700">结构 / 视角缺口</text>
+<path d="M1430 1160 H1468" fill="none" stroke="#197C79" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#arrow)"/>
+<circle cx="1490" cy="1160" r="20" fill="#197C79"/>
+<text x="1482" y="1168" fill="#FFFFFF" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700">A</text>
+<text x="1475" y="1199" fill="#197C79" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400">仅需静态</text>
+<text x="1475" y="1224" fill="#197C79" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400">概念 / 参考</text>
+<text x="1475" y="1249" fill="#197C79" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400">跳至⑥的 A</text>
+<circle cx="1490" cy="1953" r="20" fill="#197C79"/>
+<text x="1482" y="1961" fill="#FFFFFF" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700">A</text>
+<path d="M1469 1953 H1436" fill="none" stroke="#197C79" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#arrow)"/>
+<text x="1520" y="1948" fill="#197C79" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400">静态成果</text>
+<text x="1520" y="1973" fill="#197C79" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400">直接交付</text>
+<path d="M1380 1455 H1405 V1390 H1380" fill="none" stroke="#C9693C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#warm)" stroke-dasharray="8 7"/>
+<path d="M1430 1330 H1620 V1290" fill="none" stroke="#C9693C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#warm)" stroke-dasharray="8 7"/>
+<text x="1465" y="1300" fill="#C9693C" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="700">样本结构缺口</text>
+<rect x="62" y="2054" width="1576" height="118" rx="16" fill="#142C3D" stroke="none" stroke-width="2"/>
+<text x="88" y="2097" fill="#FFFFFF" font-family="Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700">独立的开源检查</text>
+<text x="88" y="2137" fill="#E6EDE8" font-family="Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400">代码与许可证 · 隐私脱敏 · 参考与资产权利    →    确认可公开范围后再考虑发布；本流程不自动发布。</text>
+<text x="64" y="2221" fill="#197C79" font-family="Noto Sans CJK SC, sans-serif" font-size="23" font-weight="700">边界与例外</text>
+<text x="64" y="2260" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400">真实个体：同品种图不能证明它的隐藏花纹；缺证据时缩小视角范围，或明确作为获准设计提案。</text>
+<text x="64" y="2295" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400">宿主未定：可以先做形象与示意动作；缺工具只暂停依赖步骤，交付时明确未生成、未观看或未验证。</text>
+<path d="M64 2341 H118" fill="none" stroke="#197C79" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#arrow)"/>
+<text x="132" y="2348" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400">主流程</text>
+<path d="M260 2341 H314" fill="none" stroke="#C9693C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"  marker-end="url(#warm)" stroke-dasharray="8 7"/>
+<text x="328" y="2348" fill="#60717A" font-family="Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400">条件参与 / 局部回退</text>
+<text x="1100" y="2348" fill="#197C79" font-family="Noto Sans CJK SC, sans-serif" font-size="21" font-weight="700">两大制作阶段 ≠ 六轮用户审批</text>
+</svg>

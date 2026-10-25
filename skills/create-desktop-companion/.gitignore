@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+private/
+outputs/
+*.zip
+.env.*
+!.env.example
+private-assets/
+*.pem
+*.key
+.DS_Store

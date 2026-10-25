@@ -1,0 +1,60 @@
+{
+  "entries": [
+    {
+      "id": "synthetic-atlas-cell-bounds",
+      "case": "合成 8×11 图集格边界检查（不含角色作品）",
+      "stage": "结构校验",
+      "input_evidence": [
+        "scripts/make_test_fixture.py 生成的几何矩形；不含私人或第三方美术"
+      ],
+      "failure": "假设情形：某一行的格宽差一个像素，导致最后一列被静默裁切。",
+      "hypothesis": "组图前逐格检查边界，可以在不依赖视觉审查的情况下发现裁切。",
+      "bounded_change": "增加逐格边界检查；不修改任何美术内容。",
+      "verification": [
+        {
+          "kind": "machine",
+          "result": "not_run",
+          "evidence": "本示例未实际执行。"
+        }
+      ],
+      "status": "untested",
+      "regression_tests": [
+        {
+          "kind": "machine",
+          "reference": "tests/test_package_integrity.py",
+          "status": "not_run"
+        }
+      ],
+      "generalization": "组合任何固定网格图集前，先检查每一格的边界。",
+      "generalization_status": "proposed_transfer"
+    },
+    {
+      "id": "synthetic-loop-seam",
+      "case": "合成循环接缝检查（不含角色作品）",
+      "stage": "动画审查",
+      "input_evidence": [
+        "合成帧序列；不含角色作品"
+      ],
+      "failure": "假设情形：首帧与末帧不一致，循环时出现可见跳变。",
+      "hypothesis": "发布前比较循环首尾，可以发现只看单帧时漏掉的接缝。",
+      "bounded_change": "增加首尾比较步骤；本示例未实际测试。",
+      "verification": [
+        {
+          "kind": "machine",
+          "result": "not_run",
+          "evidence": "本示例未实际执行。"
+        }
+      ],
+      "status": "untested",
+      "regression_tests": [
+        {
+          "kind": "machine",
+          "reference": "scripts/check_animation.py",
+          "status": "not_run"
+        }
+      ],
+      "generalization": "接受任何循环之前，先比较其首帧和末帧。",
+      "generalization_status": "proposed_transfer"
+    }
+  ]
+}

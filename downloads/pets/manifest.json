@@ -1,0 +1,126 @@
+{
+  "format": "OpenAI pet atlas v2",
+  "packages": [
+    {
+      "slug": "duanduan",
+      "name": "短短（作者的猫）",
+      "size_bytes": 2318073,
+      "sha256": "d4674b91b690f58db472527c600c9e1ae0559abc504eac1bf84b2e852a62699a",
+      "atlas_sha256": "02970ccabdc3b10db38a5b1e41e5713146882cd59f74be5148b5431a91e570d1",
+      "path": "downloads/pets/duanduan-pet-v2.zip",
+      "server_preflight_valid": true,
+      "visual_acceptance": "existing artwork",
+      "native_manifest": true
+    },
+    {
+      "slug": "smolder",
+      "name": "斯莫德（蕊雪盈春：聚珍）",
+      "size_bytes": 3427286,
+      "sha256": "01799aeb8afcc4e58eddcd66c008c69428f247edabf035d01ed928e981b22a28",
+      "atlas_sha256": "7a0a23853bd38e7a3b93dbb6252e4e98f1fb03f7bcfb9451f61edebb0f2b5608",
+      "path": "downloads/pets/smolder-pet-v2.zip",
+      "server_preflight_valid": true,
+      "visual_acceptance": "existing artwork",
+      "native_manifest": true
+    },
+    {
+      "slug": "naiwa",
+      "name": "奶蛙",
+      "size_bytes": 902865,
+      "sha256": "44cc5bfe928c3d840e999da7494ff797ad33ff60b246f15de167fc3a323733e7",
+      "atlas_sha256": "6fdb950d988268545a3c902f25ce55dbad290d6dff645305fb5924300da023e4",
+      "path": "downloads/pets/naiwa-pet-v2.zip",
+      "server_preflight_valid": false,
+      "visual_acceptance": "user approved jumping; original wave, review laugh and thinking retained",
+      "native_manifest": true
+    },
+    {
+      "slug": "deepseek",
+      "name": "DeepSeek鲸鱼娘",
+      "size_bytes": 3432216,
+      "sha256": "797fd55b357226ec74c92b408cf9154010fe6707c2b8fc8109521ca2d4a39aae",
+      "atlas_sha256": "8c8a97bca2a549323ed6ade405ac3c60202c4bea9a09bddff74e3a88544e3368",
+      "path": "downloads/pets/deepseek-pet-v2.zip",
+      "server_preflight_valid": true,
+      "visual_acceptance": "existing artwork",
+      "native_manifest": true
+    },
+    {
+      "slug": "red-panda",
+      "name": "小熊猫",
+      "size_bytes": 2544479,
+      "sha256": "d635e2c63fddc7b373b05c5333cbd537f6b0b8a125d40d17320c5252b63e9942",
+      "atlas_sha256": "4643ae6a1b5c5e28eec350519c12fc77745b6a49201455fb599afff35d12f2a6",
+      "path": "downloads/pets/red-panda-pet-v2.zip",
+      "server_preflight_valid": true,
+      "visual_acceptance": "existing artwork",
+      "native_manifest": true
+    },
+    {
+      "slug": "beagle",
+      "name": "比格犬",
+      "size_bytes": 1958034,
+      "sha256": "af7269b6293df33470a6da702fbe70722455130933d4d4dc3c4180f31f774c84",
+      "atlas_sha256": "f25db75680d2e419cdfa279ce9aa395450ecd9959eb9c7da33ba5fb937dfd9b2",
+      "path": "downloads/pets/beagle-pet-v2.zip",
+      "server_preflight_valid": true,
+      "visual_acceptance": "existing artwork",
+      "native_manifest": true
+    },
+    {
+      "slug": "capybara",
+      "name": "卡皮巴拉",
+      "size_bytes": 2720692,
+      "sha256": "ce083cb0b49af831ace5f190f4d3c27bf1585d87d26c5f6c0bae29ab576fcdd1",
+      "atlas_sha256": "620b1f53e0cb3b4401a46e5b29f034de688cd61662571e8c07fd913b8fe5b5c6",
+      "path": "downloads/pets/capybara-pet-v2.zip",
+      "server_preflight_valid": true,
+      "visual_acceptance": "existing artwork",
+      "native_manifest": true
+    },
+    {
+      "slug": "yinyue",
+      "name": "银月",
+      "size_bytes": 1804519,
+      "sha256": "44b1e5746e467219f7e03f4a55446a84c85284fcb9031de5fc16c831d1fc402c",
+      "atlas_sha256": "c3c9df94e0c7573cb5dc5a3d632201d8534bb0e1a7da364654df590a285a37bf",
+      "path": "downloads/pets/yinyue-pet-v2.zip",
+      "server_preflight_valid": false,
+      "visual_acceptance": "user-supplied update; local structure verified, server preflight not performed",
+      "native_manifest": true
+    },
+    {
+      "slug": "tungtung",
+      "name": "木棍人",
+      "size_bytes": 1337320,
+      "sha256": "7a1de158e85f5b64f4edd60e791864da26c94d4790e025eb4aa6978d1f4f0931",
+      "atlas_sha256": "911c1f935033b19d79857a249de4189106ee798b96b407178a3fdb34d66e5d35",
+      "path": "downloads/pets/tungtung-pet-v2.zip",
+      "server_preflight_valid": true,
+      "visual_acceptance": "existing artwork",
+      "native_manifest": true
+    },
+    {
+      "slug": "benjiu",
+      "name": "笨笨的韭菜",
+      "size_bytes": 2183849,
+      "sha256": "c333639f615a53f8673f764da11f776658e40e8a5cc9ee821e1de24afe840d1e",
+      "atlas_sha256": "88a49b55778974b2af66005ef29d591622660e9c66575fbf59fe2fbf876343cd",
+      "path": "downloads/pets/benjiu-pet-v2.zip",
+      "server_preflight_valid": true,
+      "visual_acceptance": "existing artwork",
+      "native_manifest": true
+    },
+    {
+      "slug": "douzi",
+      "name": "做多中国的好人豆子",
+      "size_bytes": 2276480,
+      "sha256": "c9c3513526ae7cac6c6c240240c6b036ed8ae1db5126ce1279f63e28b9af1bf8",
+      "atlas_sha256": "baa995b0e1118c64b52ef44c5819aa487e4bc9f81dec26fad310ec49267057e8",
+      "path": "downloads/pets/douzi-pet-v2.zip",
+      "server_preflight_valid": true,
+      "visual_acceptance": "existing artwork",
+      "native_manifest": true
+    }
+  ]
+}

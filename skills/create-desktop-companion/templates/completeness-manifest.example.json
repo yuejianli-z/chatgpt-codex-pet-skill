@@ -1,0 +1,166 @@
+{
+  "template_only": true,
+  "host": {
+    "name": "REPLACE_WITH_VERIFIED_HOST",
+    "version": "UNKNOWN",
+    "source": "REPLACE_WITH_DOCUMENT_OR_SUPPLIED_SCHEMA",
+    "verified_on": null
+  },
+  "capability_matrix": [
+    {
+      "requirement_key": "REPLACE_WITH_HOST_KEY",
+      "kind": "animation_or_direction_pose_or_static_or_event",
+      "meaning": "REPLACE_WITH_VERIFIED_MEANING",
+      "required_frames": null,
+      "ordering": null,
+      "timing_rule": null,
+      "source_evidence": "REPLACE_WITH_SPEC_SECTION"
+    }
+  ],
+  "coverage": [
+    {
+      "requirement_key": "REPLACE_WITH_HOST_KEY",
+      "delivered_frames": null,
+      "source_asset_sha256": null,
+      "final_asset": null,
+      "final_asset_sha256": null,
+      "displayed_source_indices": [],
+      "review_status": "not_checked",
+      "evidence": [],
+      "kind": null,
+      "source_indices": [],
+      "durations_ms": [],
+      "source_to_rendition_mapping": []
+    }
+  ],
+  "extras": [],
+  "checks": {
+    "expected_minus_delivered": null,
+    "unexpected_items": null,
+    "exact_frame_counts": null,
+    "order_and_timing": null,
+    "semantic_visual_review": null,
+    "offline_playback": null,
+    "runtime_integration": "not_tested"
+  },
+  "evidence": [],
+  "notes": "Populate actual host requirements and the latest presentation request. Null/empty template fields mean not filled, not passed or not required. Extras never satisfy host gaps. Separate bilingual action/meaning labels, source/adaptation, rationale, trigger evidence/unknown, and review scope. Fill required_body_roles before checking a project that requests body views.",
+  "body_views": [],
+  "renditions": [
+    {
+      "role": "master_or_light",
+      "source_asset_sha256": null,
+      "source_rgba_sha256": null,
+      "file": null,
+      "sha256": null,
+      "dimensions": null,
+      "transform": null,
+      "timeline_equal": null,
+      "frame_coverage_equal": null
+    }
+  ],
+  "preview_schedule": {
+    "master_period_ms": null,
+    "row_schedules": {},
+    "neutral_holds_source": null,
+    "runtime_timing_claim": "unknown",
+    "decoded_first_pts": null,
+    "decoded_last_pts": null,
+    "decoded_last_hold_ms": null,
+    "phase_check": null
+  },
+  "long_viewing": {
+    "file_sha256": null,
+    "rendered_dimensions": null,
+    "reviewer": null,
+    "viewed_on": null,
+    "actual_uninterrupted_seconds": null,
+    "generated": false,
+    "decoded": false,
+    "watched": false,
+    "observations": []
+  },
+  "required_body_roles": [],
+  "layout": {
+    "reference": null,
+    "pixel_reviewed": false,
+    "layout_approval_scope": null,
+    "character_approval_separate": true,
+    "canvas_dimensions": null,
+    "modules": [],
+    "requested_body_views_status": "unfilled",
+    "coordinate_source": null
+  },
+  "identity": {
+    "approved_reference": null,
+    "version": null,
+    "sha256": null,
+    "invariants": {
+      "proportions": null,
+      "limbs": null,
+      "markings": null,
+      "tail": null,
+      "asymmetric_accessories": null
+    },
+    "permitted_articulation_and_occlusion": null,
+    "inferred_details": []
+  },
+  "artifact_lineage": [
+    {
+      "artifact": null,
+      "version": null,
+      "role": "installed_or_new_source_or_concept_or_export",
+      "sha256": null,
+      "actual_inputs": [],
+      "relationship_status": "unknown",
+      "inspected_sha256": null,
+      "qa_scope": null
+    }
+  ],
+  "representative_cover": {
+    "label": "representative_pose_overview_not_simultaneous_frame",
+    "tracks": [
+      {
+        "track": null,
+        "source_version": null,
+        "source_sha256": null,
+        "frame_index": null,
+        "rationale": null
+      }
+    ],
+    "changes_animation_timeline": false
+  },
+  "character_design": {
+    "source_route": null,
+    "rationale": null,
+    "signature_details": [],
+    "nearest_confusions": [],
+    "limits": []
+  },
+  "iteration": {
+    "observed_defect": null,
+    "allowed_scope": null,
+    "actual_changes": [],
+    "checks_completed": [],
+    "residual_issues": [],
+    "approval_scope": null
+  },
+  "cross_row_registration": [
+    {
+      "source_group": null,
+      "source_version": null,
+      "source_hashes": [],
+      "affected_rows_and_frames": [],
+      "original_extraction_transform": null,
+      "approved_neutral_reference": null,
+      "stable_landmarks": [],
+      "feature_measurements_with_units": [],
+      "shared_final_transform": null,
+      "contact_or_hover_anchor": null,
+      "registered_source_hashes": [],
+      "idle_state_idle_review": "not_checked",
+      "final_encoded_review": "not_checked",
+      "uncertainty": null
+    }
+  ]
+}

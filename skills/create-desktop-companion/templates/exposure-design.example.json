@@ -1,0 +1,49 @@
+{
+  "design_priority": [
+    "idle",
+    "running",
+    "review",
+    "waiting",
+    "failed"
+  ],
+  "core_identity": "approved-primary-form",
+  "gaze_identity": "approved-primary-form",
+  "states": {
+    "idle": {
+      "motion_intent": "specify the character-specific action before generation",
+      "fatigue_risk": "assess repeated viewing before approval",
+      "identity_role": "retain approved character identity",
+      "return_to_idle_review": "not yet reviewed",
+      "observed_screen_share": null
+    },
+    "running": {
+      "motion_intent": "specify the character-specific action before generation",
+      "fatigue_risk": "assess repeated viewing before approval",
+      "identity_role": "retain approved character identity",
+      "return_to_idle_review": "not yet reviewed",
+      "observed_screen_share": null
+    },
+    "review": {
+      "motion_intent": "specify the character-specific action before generation",
+      "fatigue_risk": "assess repeated viewing before approval",
+      "identity_role": "retain approved character identity",
+      "return_to_idle_review": "not yet reviewed",
+      "observed_screen_share": null
+    },
+    "waiting": {
+      "motion_intent": "specify the character-specific action before generation",
+      "fatigue_risk": "assess repeated viewing before approval",
+      "identity_role": "retain approved character identity",
+      "return_to_idle_review": "not yet reviewed",
+      "observed_screen_share": null
+    },
+    "failed": {
+      "motion_intent": "specify the character-specific action before generation",
+      "fatigue_risk": "assess repeated viewing before approval",
+      "identity_role": "retain approved character identity",
+      "return_to_idle_review": "not yet reviewed",
+      "observed_screen_share": null
+    }
+  },
+  "host_bindings": []
+}

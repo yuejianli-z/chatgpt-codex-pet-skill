@@ -1,0 +1,43 @@
+{
+  "status": "Redistributable toolkit scope; asset-specific permissions and release authorization are checked separately",
+  "allowed_roots": [
+    "SKILL.md",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE",
+    "VERSION",
+    "requirements.txt",
+    "CONTRIBUTING.md",
+    "CONTRIBUTING.zh-CN.md",
+    "SECURITY.md",
+    "SECURITY.zh-CN.md",
+    "ASSET-POLICY.md",
+    "ASSET-POLICY.zh-CN.md",
+    "SOURCE-CREDITS.md",
+    "SOURCE-CREDITS.zh-CN.md",
+    "CHANGELOG.md",
+    "CHANGELOG.zh-CN.md",
+    "public-export-allowlist.json",
+    "scripts",
+    "tests",
+    "templates",
+    "examples",
+    "docs",
+    "assets",
+    "tools",
+    ".gitignore"
+  ],
+  "allowed_binary_assets": [
+    "assets/workflow.zh-CN.png"
+  ],
+  "excluded": [
+    "private character artwork",
+    "source photographs",
+    "executed prompts",
+    "private identifiers",
+    "signed download links",
+    "credentials",
+    "runtime caches"
+  ],
+  "claim": "Installable toolkit boundary checked by scripts/check_package.py; does not certify asset rights or external publication authorization."
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="176" viewBox="0 0 160 176" role="img" aria-label="Original educational line figure making a small greeting">
+<title>Educational line-art rig, not a native pet</title>
+<g fill="none" stroke="#247A85" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" shape-rendering="geometricPrecision">
+<circle cx="80" cy="43" r="17"/>
+<path id="neck" d="M 80.000000,60.000000 L 80.000000,66.000000">
+</path>
+<path id="torso" d="M 80.000000,66.000000 L 80.000000,101.000000">
+</path>
+<path id="left_arm" d="M 80.000000,66.000000 L 59.521199,80.339411 L 65.474037,102.555705">
+</path>
+<path id="right_arm" d="M 80.000000,66.000000 L 104.620194,61.658796 L 109.402163,39.161401">
+</path>
+<path id="left_leg" d="M 80.000000,101.000000 L 70.232955,129.365557 L 69.220870,158.347891">
+</path>
+<path id="right_leg" d="M 80.000000,101.000000 L 89.767045,129.365557 L 90.779130,158.347891">
+</path>
+</g>
+</svg>

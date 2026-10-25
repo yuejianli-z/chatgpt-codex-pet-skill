@@ -1,0 +1,60 @@
+{
+  "entries": [
+    {
+      "id": "synthetic-atlas-cell-bounds",
+      "case": "Synthetic 8x11 atlas cell-bounds check (no character artwork)",
+      "stage": "structure validation",
+      "input_evidence": [
+        "Generated geometric rectangles from scripts/make_test_fixture.py; no private or third-party art"
+      ],
+      "failure": "Hypothetical: a row with an off-by-one cell width silently cropped the last column.",
+      "hypothesis": "Checking each cell's bounds before composing the atlas catches the crop without visual review.",
+      "bounded_change": "Add a per-cell bounds check; no artwork is modified.",
+      "verification": [
+        {
+          "kind": "machine",
+          "result": "not_run",
+          "evidence": "Not executed in this illustrative example."
+        }
+      ],
+      "status": "untested",
+      "regression_tests": [
+        {
+          "kind": "machine",
+          "reference": "tests/test_package_integrity.py",
+          "status": "not_run"
+        }
+      ],
+      "generalization": "Check every cell's bounds before composing any fixed-grid atlas.",
+      "generalization_status": "proposed_transfer"
+    },
+    {
+      "id": "synthetic-loop-seam",
+      "case": "Synthetic cycle seam check (no character artwork)",
+      "stage": "animation review",
+      "input_evidence": [
+        "Synthetic frame sequence; no character artwork"
+      ],
+      "failure": "Hypothetical: the first and last frames differed, producing a visible jump.",
+      "hypothesis": "Comparing the loop endpoints before publishing catches seams that single-frame review misses.",
+      "bounded_change": "Add an endpoint comparison step; untested in this example.",
+      "verification": [
+        {
+          "kind": "machine",
+          "result": "not_run",
+          "evidence": "Not executed in this illustrative example."
+        }
+      ],
+      "status": "untested",
+      "regression_tests": [
+        {
+          "kind": "machine",
+          "reference": "scripts/check_animation.py",
+          "status": "not_run"
+        }
+      ],
+      "generalization": "Compare the first and last frames of every cycle before accepting it.",
+      "generalization_status": "proposed_transfer"
+    }
+  ]
+}

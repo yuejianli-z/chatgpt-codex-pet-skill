@@ -1,0 +1,14 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const elements={}; const drawn=[];
+function elem(id){return elements[id] ||= {id,value:({fps:'8',speed:'1',scale:'2',background:'checker',verdict:'unreviewed',notes:'',target:'0'})[id]||'',checked:id==='loop',dataset:{},style:{},children:[],classList:{toggle(){}},appendChild(c){this.children.push(c)},querySelectorAll(){return this.children},getContext(){return {clearRect(){},drawImage(...args){drawn.push(args.slice(1,5))}}},set innerHTML(v){this.children=[]},get innerHTML(){return ''}}}
+const sandbox={document:{getElementById:elem,documentElement:{},querySelectorAll(){return []},querySelector:elem,createElement:()=>elem('created'+Math.random())},Date,Set,Math,Number,Array,Uint8Array,URL:{},Blob,requestAnimationFrame(){},setTimeout(){},Image:class{}};
+const c=vm.createContext(sandbox);vm.runInContext(fs.readFileSync(process.argv[2] || require('path').join(__dirname,'../tester.js'),'utf8'),c);function run(s){return vm.runInContext(s,c,{timeout:1000})}
+run("image={};asset={version:2};translate();sequence('all');");for(let i=0;i<300;i++)run('advance()');assert.equal(run('coverage.size'),73);assert.equal(run('complete'),true);assert.equal(run('playing'),false);
+assert.equal(run('JSON.stringify(STATES.map(s=>s[1]))'),'[6,8,8,4,5,8,6,6,6]');assert.equal(run('report().inspection.length'),25);assert.equal(run('report().coverage.expectedCells'),73);assert.equal(run("report().inspection.every(x=>x.humanVerdict==='unreviewed')"),true);
+run("select(9);draw()");assert.deepEqual(drawn.at(-1),[0,1872,192,208]);run("select(24);draw()");assert.deepEqual(drawn.at(-1),[1344,2080,192,208]);run("select(0);$('seam').onclick()");assert.equal(run('frame'),5);run('advance()');assert.equal(run('frame'),0);run('advance()');assert.equal(run('frame'),5);
+run("sequence('interrupt')");for(let i=0;i<100;i++)run('advance()');assert.equal(run('state'),8);assert.equal(run('complete'),true);assert.equal(run('playing'),false);
+run("select(0);$('loop').checked=false;playing=true;frame=5;advance()");assert.equal(run('playing'),false);run("$('loop').checked=true;playing=true;advance()");assert.equal(run('frame'),0);
+run("asset={version:1};coverage.clear();sequence('all')");for(let i=0;i<100;i++)run('advance()');assert.equal(run('coverage.size'),57);assert.equal(run('report().inspection.length'),9);
+run("select(0);$('notes').value='<script>alert(1)</script>';save();select(1);select(0)");assert.equal(run("$('notes').value"),'<script>alert(1)</script>');
+console.log('PASS: counts; v1/v2 full traversal; gaze crop coordinates; seam; interruption termination; loop stop/repeat; explicit human verdicts; note preservation.');
+for(const bad of ['-1','1e100','NaN','','0']){elem('fps').value=bad;run('playing=true;elapsed=0;last=0;tick(250)');assert.ok(run('fps()')>=1&&run('fps()')<=60)}console.log('PASS: transient negative/huge/NaN/empty/zero FPS cannot hang and clamps to 1–60.');

@@ -1,0 +1,16 @@
+{
+  "actors": [
+    {
+      "id": "faceless_object",
+      "has_face": false,
+      "features": {"body_axis": true, "pupils": false, "nose_tip": false, "mouth": false}
+    }
+  ],
+  "cues": [
+    {
+      "actor_id": "faceless_object",
+      "signal": "Orient the approved body axis toward the target without adding anatomy.",
+      "required_features": ["body_axis"]
+    }
+  ]
+}

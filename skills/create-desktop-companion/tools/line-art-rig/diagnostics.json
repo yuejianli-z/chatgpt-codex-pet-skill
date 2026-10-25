@@ -1,0 +1,8 @@
+{
+  "scope": "Selected geometric clearances; not visual acceptance or native pet validation",
+  "minimums": {
+    "head_to_raised_forearm_edge_gap": 5.15272774042284,
+    "hand_to_torso_edge_gap": 34.10041865738352,
+    "foot_endpoint_edge_gap": 17.558260076174463
+  }
+}

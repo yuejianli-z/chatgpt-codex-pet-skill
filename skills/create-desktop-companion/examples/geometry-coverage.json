@@ -1,0 +1,9 @@
+{
+  "purpose": "Synthetic record fixture only. Not a real host or character coverage claim.",
+  "capability_matrix": [{"requirement_key": "move", "kind": "animation", "required_frames": 3}],
+  "coverage": [{"requirement_key": "move", "kind": "animation", "source_indices": [0,1,2], "durations_ms": [100,200,300]}],
+  "required_body_roles": [],
+  "body_views": [],
+  "preview_schedule": {"master_period_ms": 12000, "row_schedules": {"move": [100,200,300]}},
+  "runtime_integration": "not_tested"
+}

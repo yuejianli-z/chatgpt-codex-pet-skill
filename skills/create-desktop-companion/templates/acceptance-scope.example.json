@@ -1,0 +1,49 @@
+{
+  "claim": "partial_diagnostic",
+  "required_directions": [
+    "0.0",
+    "22.5",
+    "45.0",
+    "67.5",
+    "90.0",
+    "112.5",
+    "135.0",
+    "157.5",
+    "180.0",
+    "202.5",
+    "225.0",
+    "247.5",
+    "270.0",
+    "292.5",
+    "315.0",
+    "337.5"
+  ],
+  "tested_directions": [
+    "0.0",
+    "90.0",
+    "180.0",
+    "270.0"
+  ],
+  "gates": {
+    "geometry": {
+      "status": "pass",
+      "evidence": "Synthetic example: four anchors only, not full official atlas acceptance."
+    },
+    "identity": {
+      "status": "fail",
+      "evidence": "Synthetic example: filled negative space changes identity."
+    },
+    "direction_semantics": {
+      "status": "fail",
+      "evidence": "Synthetic example: down cue is neutral rather than directional."
+    },
+    "full_coverage": {
+      "status": "not_run",
+      "evidence": "Only four of sixteen required directions tested."
+    },
+    "actual_runtime": {
+      "status": "unknown",
+      "evidence": "No live host observation."
+    }
+  }
+}
