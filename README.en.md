@@ -9,6 +9,8 @@ Author on Bilibili: [百香里_](https://space.bilibili.com/147521399)
 Create your own ChatGPT / Codex pet with this skill, or download a ready-made pet pack and follow its import instructions.
 Preview the characters below, then choose a download.
 
+> This project is for entertainment and learning/exchange purposes only. Character designs belong to their respective rights holders; if you believe something infringes your rights, please contact us and it will be removed. See the [Disclaimer](#disclaimer) at the bottom.
+
 ## What you can start from
 
 - **A real pet's photo**: your own cat, dog, hamster, and so on. A few clear photos are enough.
@@ -126,5 +128,12 @@ Triggers describe the tested client surfaces, not a guarantee for every version.
 | Skill | Self-contained workflow, references, templates and diagnostic scripts |
 
 </details>
+
+## Disclaimer
+
+- This project is for entertainment and learning/exchange purposes only. Do not use it for any commercial purpose. You use it at your own risk.
+- The names, settings and copyrights of the characters shown here (including but not limited to Smolder from League of Legends, Yinyue from Mortal Cultivation Chronicles, DeepSeek-related designs, creator avatars and internet characters) belong to their respective rights holders. The pet atlases in this repository are fan-made re-creations of those designs. They are not affiliated with, authorized by or endorsed by the original rights holders or related companies.
+- The MIT license applies only to the code, documentation and templates in this repository that the contributors own. It does not cover the character designs, reference images or pet artwork above.
+- If you are a rights holder and believe this project infringes your rights, please contact us through this repository's Issues. Once verified, the material will be removed or replaced promptly. See [License and asset sources](docs/ASSET-POLICY.md).
 
 [Installation](downloads/README.md) · [Skill guide](skills/create-desktop-companion/SKILL.md) · [Compatibility](skills/create-desktop-companion/docs/en/compatibility.md) · [License and asset sources](docs/ASSET-POLICY.md)

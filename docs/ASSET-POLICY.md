@@ -21,6 +21,10 @@ Visual approval, private possession, or acceptance of IP risk is not permission 
 
 The gallery and installable packs are project artwork, not MIT-licensed character assets. The underlying character, creator-avatar, reference-photo and generation-service rights remain separate from toolkit code. Consult the [asset provenance review](ASSET-RIGHTS-REVIEW.md) for known and unresolved sources before redistribution. Private source photographs are not included.
 
+## Disclaimer
+
+This project is for entertainment and learning/exchange purposes only and must not be used commercially. The character designs shown here belong to their respective rights holders. The pet atlases are fan-made re-creations, not affiliated with, authorized by or endorsed by those rights holders. The MIT license does not extend to them. If you believe any material infringes your rights, contact us as described below and it will be removed.
+
 ## Takedown requests
 
 Several characters in this repository are original interpretations inspired by third-party games, creators or internet characters (see the [asset provenance review](ASSET-RIGHTS-REVIEW.md) for the source category of each one). If you are the rights holder of any character, artwork or reference used here and believe it infringes your rights, please open an issue at <https://github.com/yuejianli-z/chatgpt-codex-pet-skill/issues> or contact the repository owner directly through their GitHub profile. On a verified request, the affected asset will be removed or replaced promptly.
